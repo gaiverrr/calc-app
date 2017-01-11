@@ -1,0 +1,26 @@
+.calculattion-container__wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: center
+}
+
+.calculattion-container__element {
+    min-width: 100px;
+    min-height: 100px;
+    max-width: 200px;
+    max-height: 200px;
+    background-color: white;
+    margin: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    border: rgba(68, 68, 68, 0.44) solid 0.1px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    font-size: 44px;
+}
+
+.calculattion-container__element.result-button {
+    background-color: rgba(198, 234, 255, 0.31);
+}

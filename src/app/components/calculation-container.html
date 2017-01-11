@@ -1,0 +1,18 @@
+<div>
+    <div class="calculattion-container__wrapper">
+        <div style="display: flex;" *ngIf="toggle" [@flyInOut]="toggle" >
+            <div class="calculattion-container__element" contenteditable="true">
+                <input-number></input-number>
+            </div>
+            <div class="calculattion-container__element">+</div>
+            <div class="calculattion-container__element" contenteditable="true">
+                <input-number></input-number>
+            </div>
+            <div class="calculattion-container__element result-button">=</div>
+        </div>
+        <div class="calculattion-container__element" *ngIf="!toggle" [@flyInOut]="!toggle">result</div>
+    </div>
+
+</div>
+
+<button (click)="toggleElement()">toggle</button>
