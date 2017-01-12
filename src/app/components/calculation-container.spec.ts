@@ -1,4 +1,5 @@
 import {CalculationContainer} from './calculation-container';
+import {InputNumber} from './input-number';
 import {TestBed, async} from '@angular/core/testing';
 import {HttpModule}    from '@angular/http';
 import {MathService} from '../services/math';
@@ -12,7 +13,8 @@ describe('calculation component', () => {
 
             providers: [MathService],
             declarations: [
-                CalculationContainer
+                CalculationContainer,
+                InputNumber
             ]
         });
         TestBed.compileComponents();
@@ -31,17 +33,6 @@ describe('calculation component', () => {
         const fixture = TestBed.createComponent(CalculationContainer);
         fixture.detectChanges();
         const elements = fixture.nativeElement.querySelectorAll('.calculattion-container__element[contenteditable]');
-        expect(parseInt(elements[0].textContent)).toBe(0);
-        expect(parseInt(elements[1].textContent)).toBe(0);
-    });
-
-    it('check calculations', () => {
-        const fixture = TestBed.createComponent(CalculationContainer);
-        fixture.detectChanges();
-        const elements = fixture.nativeElement.querySelectorAll('.calculattion-container__element[contenteditable]');
-        const button = fixture.nativeElement.querySelector('.result-button');
-        elements[0].textContent = 25;
-        elements[1].textContent = 45;
         expect(parseInt(elements[0].textContent)).toBe(0);
         expect(parseInt(elements[1].textContent)).toBe(0);
     });

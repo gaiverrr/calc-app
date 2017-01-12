@@ -1,4 +1,4 @@
-import {Component, animate, trigger, transition, style, state} from '@angular/core';
+import {Component, animate, trigger, transition, style} from '@angular/core';
 import {MathService} from '../services/math';
 
 @Component({
@@ -18,6 +18,7 @@ import {MathService} from '../services/math';
     providers: [MathService],
     template: require('./calculation-container.html')
 })
+
 export class CalculationContainer {
     public firstSummand: number;
     public secondSummand: number;

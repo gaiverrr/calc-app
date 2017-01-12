@@ -1,37 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a2324140-37bc-496a-a305-1cd1b8bf7733" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/app/components/calculation-container.spec.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/app/components/header-section.spec.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/app/models/math-result.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/app/services/math.ts" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/server/index.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/app/___main/main.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/app/___main/main.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/app/components/calculation-container.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/app/components/header-section.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/app/hello/hello.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/app/hello/hello.spec.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/app/hello/hello.ts" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/app/components/main-section.css" afterPath="$PROJECT_DIR$/app.test.py" />
+    <list default="true" id="a2324140-37bc-496a-a305-1cd1b8bf7733" name="Default" comment="fix test">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/index-356e1551a1e2c4e43a6b266f0ae5867a.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/index.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/index.spec.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/main-fb591150dcd1c316c09d.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/vendor-fb591150dcd1c316c09d.js" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/calc-app.iml" afterPath="$PROJECT_DIR$/calc-app.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/conf/gulp.conf.js" afterPath="$PROJECT_DIR$/conf/gulp.conf.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gulp_tasks/browsersync.js" afterPath="$PROJECT_DIR$/gulp_tasks/browsersync.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gulpfile.js" afterPath="$PROJECT_DIR$/gulpfile.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/components/calculation-container.html" afterPath="$PROJECT_DIR$/src/app/components/calculation-container.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/components/calculation-container.spec.ts" afterPath="$PROJECT_DIR$/src/app/components/calculation-container.spec.ts" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/components/calculation-container.ts" afterPath="$PROJECT_DIR$/src/app/components/calculation-container.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/components/header-section.html" afterPath="$PROJECT_DIR$/src/app/components/header-section.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/components/header-section.ts" afterPath="$PROJECT_DIR$/src/app/components/header-section.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/components/input-number.html" afterPath="$PROJECT_DIR$/src/app/components/input-number.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/components/input-number.ts" afterPath="$PROJECT_DIR$/src/app/components/input-number.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/components/main-section.html" afterPath="$PROJECT_DIR$/src/app/components/main-section.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/components/main-section.ts" afterPath="$PROJECT_DIR$/src/app/components/main-section.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/index.ts" afterPath="$PROJECT_DIR$/src/app/index.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/index.css" afterPath="$PROJECT_DIR$/src/index.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tsconfig.json" afterPath="$PROJECT_DIR$/tsconfig.json" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -60,11 +41,21 @@
       <file leaf-file-name="calculation-container.ts" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/app/components/calculation-container.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="22" lean-forward="false" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
+            <state relative-caret-position="66">
+              <caret line="21" column="23" lean-forward="true" selection-start-line="21" selection-start-column="23" selection-end-line="21" selection-end-column="23" />
               <folding>
-                <element signature="e#0#84#0" expanded="true" />
+                <element signature="e#0#77#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" column="7" lean-forward="false" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="7" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -82,8 +73,8 @@
       <file leaf-file-name="calculation-container.spec.ts" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/app/components/calculation-container.spec.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="19" column="41" lean-forward="true" selection-start-line="19" selection-start-column="41" selection-end-line="19" selection-end-column="41" />
+            <state relative-caret-position="559">
+              <caret line="38" column="0" lean-forward="false" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
               <folding>
                 <element signature="e#0#61#0" expanded="true" />
               </folding>
@@ -103,55 +94,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="header-section.spec.ts" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/app/components/header-section.spec.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="32" lean-forward="true" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
-              <folding>
-                <element signature="e#0#47#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="math-result.ts" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/app/models/math-result.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="23" lean-forward="false" selection-start-line="0" selection-start-column="23" selection-end-line="0" selection-end-column="23" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="math.ts" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/app/services/math.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="11" column="68" lean-forward="false" selection-start-line="11" selection-start-column="68" selection-end-line="11" selection-end-column="68" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.ts" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/app/index.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="19" column="19" lean-forward="false" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="19" />
-              <folding>
-                <element signature="e#0#39#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/index.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-45">
-              <caret line="15" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
+            <state relative-caret-position="74">
+              <caret line="22" column="34" lean-forward="true" selection-start-line="22" selection-start-column="34" selection-end-line="22" selection-end-column="34" />
               <folding />
             </state>
           </provider>
@@ -242,13 +189,14 @@
         <option value="$PROJECT_DIR$/src/app/components/main-section.html" />
         <option value="$PROJECT_DIR$/src/app/services/math.ts" />
         <option value="$PROJECT_DIR$/src/app/components/header-section.spec.ts" />
-        <option value="$PROJECT_DIR$/src/app/components/calculation-container.spec.ts" />
         <option value="$PROJECT_DIR$/app.test.py" />
         <option value="$PROJECT_DIR$/app.py" />
         <option value="$PROJECT_DIR$/src/app/components/calculation-container.html" />
         <option value="$PROJECT_DIR$/src/app/components/input-number.ts" />
         <option value="$PROJECT_DIR$/src/app/components/input-number.html" />
+        <option value="$PROJECT_DIR$/src/app/components/calculation-container.spec.ts" />
         <option value="$PROJECT_DIR$/src/app/components/calculation-container.ts" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -303,20 +251,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="calc-app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="calc-app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="calc-app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="conf" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -890,16 +824,16 @@
       <workItem from="1484144117936" duration="17523000" />
       <workItem from="1484216506253" duration="4172000" />
       <workItem from="1484220794566" duration="185000" />
-      <workItem from="1484220996766" duration="24203000" />
+      <workItem from="1484220996766" duration="25027000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="46083000" />
+    <option name="totallyTimeSpent" value="46907000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -912,7 +846,7 @@
       <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="TypeScript" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290461" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25746268" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25746268" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -964,7 +898,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/.tmp/index.js" />
     <entry file="file://$PROJECT_DIR$/node_modules/@angular/router/src/router_module.d.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="301">
@@ -1215,7 +1148,7 @@
         <state relative-caret-position="187">
           <caret line="11" column="31" lean-forward="false" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
           <folding>
-            <element signature="e#0#19#0" expanded="true" />
+            <element signature="e#0#19#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1270,32 +1203,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/components/calculation-container.spec.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="41" lean-forward="true" selection-start-line="19" selection-start-column="41" selection-end-line="19" selection-end-column="41" />
-          <folding>
-            <element signature="e#0#61#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/components/calculation-container.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="22" lean-forward="false" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
-          <folding>
-            <element signature="e#0#84#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/app/components/header-section.spec.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="15" column="32" lean-forward="true" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
           <folding>
-            <element signature="e#0#47#0" expanded="true" />
+            <element signature="e#0#47#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1321,15 +1234,43 @@
         <state relative-caret-position="323">
           <caret line="19" column="19" lean-forward="false" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="19" />
           <folding>
-            <element signature="e#0#39#0" expanded="true" />
+            <element signature="e#0#39#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/index.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-45">
-          <caret line="15" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
+        <state relative-caret-position="74">
+          <caret line="22" column="34" lean-forward="true" selection-start-line="22" selection-start-column="34" selection-end-line="22" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/components/calculation-container.spec.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="559">
+          <caret line="38" column="0" lean-forward="false" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#61#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/components/calculation-container.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="21" column="23" lean-forward="true" selection-start-line="21" selection-start-column="23" selection-end-line="21" selection-end-column="23" />
+          <folding>
+            <element signature="e#0#77#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="7" lean-forward="false" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="7" />
           <folding />
         </state>
       </provider>
