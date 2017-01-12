@@ -5,21 +5,19 @@ import {Component} from '@angular/core';
     template: require('./input-number.html')
 })
 export class InputNumber {
-    public value: number;
-
-    model = 'some text';
+    public value: string;
+    public invalid: boolean;
 
     constructor() {
-        this.value = 0;
+        this.value = '0';
     }
 
-    handleInput(id: string) {
-        console.log(id);
-    }
-
-    handleChange(id: string) {
-        console.log(id);
-        console.log(this.model);
-        //this.store.dispatch(actions.completeTodo(id));
+    handleChange(value: string) {
+        if (isNaN(+value)) {
+            this.invalid = true;
+        } else {
+            this.invalid = false;
+        }
+        this.value = value;
     }
 }

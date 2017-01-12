@@ -1,1 +1,1 @@
-<div (blur)="handleInput($event)" contenteditable="true" (click)="handleChange($event)"> {{ value }} </div>
+<div #el class="calculattion-container__element" contenteditable="true" (input)="handleChange(el.innerText)" [ngClass]="{'error': invalid}">{{ value }}</div>
